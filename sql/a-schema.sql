@@ -60,7 +60,7 @@ CREATE TYPE idea_category AS ENUM ('cheevo', 'hole', 'lang', 'other');
 CREATE TYPE keymap AS ENUM ('default', 'vim');
 
 CREATE TYPE lang AS ENUM (
-    'assembly', 'awk', 'bash', 'basic', 'berry', 'brainfuck', 'c', 'c-sharp',
+    'assembly', 'awk', 'bash', 'basic', 'berry', 'brainfuck', 'c', 'c-sharp', 'civet',
     'clojure',  'cpp', 'cobol', 'coconut', 'crystal', 'd', 'dart', 'elixir',
     'f-sharp', 'factor', 'fish', 'forth', 'fortran', 'go', 'golfscript',
     'haskell', 'hexagony', 'j', 'janet', 'java', 'javascript', 'julia', 'k',

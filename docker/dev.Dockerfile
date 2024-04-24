@@ -12,7 +12,7 @@ COPY --from=codegolf/lang-haskell    ["/", "/langs/haskell/rootfs/"   ] #  350 M
 COPY --from=codegolf/lang-rust       ["/", "/langs/rust/rootfs/"      ] #  327 MiB
 COPY --from=codegolf/lang-d          ["/", "/langs/d/rootfs/"         ] #  309 MiB
 COPY --from=codegolf/lang-julia      ["/", "/langs/julia/rootfs/"     ] #  309 MiB
-COPY --from=codegolf/lang-zig        ["/", "/langs/zig/rootfs/"       ] #  298 MiB
+COPY --from=codegolf/lang-zig        ["/", "/langs/zig/rootfs/"       ] #  279 MiB
 COPY --from=codegolf/lang-crystal    ["/", "/langs/crystal/rootfs/"   ] #  252 MiB
 COPY --from=codegolf/lang-dart       ["/", "/langs/dart/rootfs/"      ] #  235 MiB
 COPY --from=codegolf/lang-basic      ["/", "/langs/basic/rootfs/"     ] #  205 MiB
@@ -62,6 +62,7 @@ COPY --from=codegolf/lang-wren       ["/", "/langs/wren/rootfs/"      ] #  496 K
 COPY --from=codegolf/lang-lua        ["/", "/langs/lua/rootfs/"       ] #  354 KiB
 COPY --from=codegolf/lang-sed        ["/", "/langs/sed/rootfs/"       ] #  236 KiB
 COPY --from=codegolf/lang-brainfuck  ["/", "/langs/brainfuck/rootfs/" ] # 51.1 KiB
+COPY --from=codegolf/lang-civet      ["/", "/langs/civet/rootfs/"     ] # 51.1 KiB
 
 COPY run-lang.c ./
 

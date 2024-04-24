@@ -349,6 +349,8 @@ func play(
 		cmd.Args = []string{"/usr/bin/brainfuck", "-xc", code}
 	case "c":
 		cmd.Args = []string{"/usr/bin/tcc", "-run", "-"}
+	case "civet":
+		cmd.Args = []string{"/usr/bin/civet.sh", "--", "civet", code}
 	case "clojure":
 		// Appending (print) prevents implicit output of the last form, if it is not nil.
 		// This seems to be a quirk of the Babashka interpreter that only occurs when

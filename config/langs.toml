@@ -267,6 +267,14 @@ int main(int argc, char* argv[]) {
 // See: https://clang.llvm.org/cxx_status.html
 '''
 
+['Civet']
+size    = '132 MiB'
+version = '17.0.6'
+website = 'https://clang.llvm.org'
+example = '''
+console.log(1)
+'''
+
 [Clojure]
 size    = '65.8 MiB'
 version = 'Babashka 1.3.189'
@@ -1164,8 +1172,8 @@ for (a in Process.arguments) System.print(a)
 '''
 
 [Zig]
-size    = '298 MiB'
-version = '0.12.0'
+size    = '279 MiB'
+version = '0.11.0'
 website = 'https://ziglang.org'
 example = '''
 const std = @import("std");
